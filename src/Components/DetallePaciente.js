@@ -90,7 +90,7 @@ class DetallePaciente extends Component {
                                 }
                             </tr>
                             <tr>
-                                <td><Link to={'/user/update/'+this.state.user._id}>Update</Link></td>
+                                <td><Link to={'/paciente/actualizar/'+this.state.user._id}>Update</Link></td>
                                 <td><button onClick={()=>{this.deleteUserById(this.state.user._id)}}>Delete</button></td>
                             </tr>
                         </table>
